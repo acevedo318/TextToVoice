@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TextToVoice.Views.AboutPage"
+             xmlns:vm="clr-namespace:TextToVoice.ViewModels"
+             xmlns:views="clr-namespace:TextToVoice.Views"
+             Title="{Binding Title}">
+
+    <StackLayout>
+        <Entry x:Name="inputText" Text="Hola desde Xamarin!"></Entry>
+        <Button x:Name="btnSpeech" Text="Text To Voice" Clicked="btnSpeech_Clicked" HeightRequest="100"></Button>
+    </StackLayout>
+
+</ContentPage>
